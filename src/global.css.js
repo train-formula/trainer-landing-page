@@ -1,5 +1,5 @@
-import { createGlobalStyle } from 'styled-components';
-import { accent } from 'constants/theme';
+import { createGlobalStyle } from 'styled-components'
+import { accent } from 'constants/theme'
 
 export default createGlobalStyle`
   html, body, div, span, applet, object, iframe,
@@ -91,4 +91,18 @@ export default createGlobalStyle`
   p {
     margin-bottom: 2rem;
   }
-`;
+
+  html,
+  body,
+  #___gatsby {
+    height: 100%;
+  }
+
+  body {
+      margin: 0px;
+  }
+
+  div[role="group"][tabindex] {
+      height: 100%;
+  }
+`

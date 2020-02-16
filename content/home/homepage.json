@@ -1,6 +1,21 @@
 {
   "title": "Home",
   "content": "intro.md",
+  "logo": {
+    "title": "Gym No 4 logo",
+    "image": "../images/gallery/Gym-No-4-Logo.png"
+  },
+  "instagramHREF": "https://instagram.com/annextraining/",
+  "branding": {
+    "copy": {
+      "title": "annex training",
+      "message" : "We are a functional fitness training program in the heart of Long Beach, California. We offer group classes, bootcamp, Olympic Weightlifting, custom programming and one on one training."
+    },
+    "mainImage": {
+      "title": "formula brand",
+      "image": "../images/gallery/girl-prowler.jpg"
+    }
+  },
   "gallery": [{
     "title": "React Context",
     "copy": "For global styles.",

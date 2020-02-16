@@ -1,9 +1,9 @@
-const path = require('path');
+const path = require('path')
 
 module.exports = {
-  siteTitle: `Gatsby Universal`,
-  siteTitleShort: `GatsbyU`,
-  siteDescription: `An opinionated starter for Gatsby.`,
+  siteTitle: `Annex Training`,
+  siteTitleShort: `AnnexTraining`,
+  siteDescription: `Fitness programs by Annex Training`,
   siteUrl: `https://gu.fabianschultz.com`,
   themeColor: `#000`,
   backgroundColor: `#fff`,
@@ -13,4 +13,4 @@ module.exports = {
     twitter: `gatsbyjs`,
     fbAppId: `966242223397117`,
   },
-};
+}
